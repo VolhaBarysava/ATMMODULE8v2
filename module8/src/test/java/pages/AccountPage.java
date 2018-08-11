@@ -30,6 +30,7 @@ public class AccountPage extends BasePage {
 
 	@FindBy(xpath = "//*[contains(@class,'ico_folder_drafts')]")
 	protected WebElement mailDraftMenuLink;
+// 	if this locator can be used in some pages (AccountPage, BasketPage), then it should be placed in to their parent page
 
 	public By mailSentTitle = By
 			.cssSelector("[class='message-sent__title']");
